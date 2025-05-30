@@ -26,7 +26,7 @@ An end-to-end data project that simulates an e-commerce analytics pipeline. This
 ---
 
 ## 📁 Project Structure
-ecommerce-analytics-pipeline/
+```ecommerce-analytics-pipeline/
 
 ├── etl/
 │ └── etl_pipeline.py # Runs the full data pipeline
@@ -42,7 +42,7 @@ ecommerce-analytics-pipeline/
 ├── sql/
 │ └── schema.sql # Database table definitions
 ├── ecommerce.db # SQLite database (generated)
-└── README.md
+└── README.md```
 
 
 The Power BI dashboard includes:
@@ -52,7 +52,10 @@ The Power BI dashboard includes:
 - 🕒 **Order Volume Over Time** (line chart)
 - 📦 **Top Products by Revenue** (table)
 
-### 📥 [Download Dashboard (.pbix)](dashboard/ecommerce_dashboard.pbix) -----------------------------------------------------------------------
+### 📥 [Download Dashboard (.pbix)](dashboard/ecommerce_dashboard.pbix) 
+
+### 📥 [Download Dashboard (.pbix)](https://github.com/Luqmaan2000/ecommerce-analytics-pipeline/raw/main/dashboard/ecommerce_dashboard.pbix)
+
 
 ---
 
