@@ -26,8 +26,9 @@ An end-to-end data project that simulates an e-commerce analytics pipeline. This
 ---
 
 ## 📁 Project Structure
-```ecommerce-analytics-pipeline/
 
+ecommerce-analytics-pipeline/
+```
 ├── etl/
 │ └── etl_pipeline.py # Runs the full data pipeline
 ├── analysis/
@@ -42,8 +43,8 @@ An end-to-end data project that simulates an e-commerce analytics pipeline. This
 ├── sql/
 │ └── schema.sql # Database table definitions
 ├── ecommerce.db # SQLite database (generated)
-└── README.md```
-
+└── README.md
+```
 
 The Power BI dashboard includes:
 
@@ -52,10 +53,7 @@ The Power BI dashboard includes:
 - 🕒 **Order Volume Over Time** (line chart)
 - 📦 **Top Products by Revenue** (table)
 
-### 📥 [Download Dashboard (.pbix)](dashboard/ecommerce_dashboard.pbix) 
-
-### 📥 [Download Dashboard (.pbix)](https://github.com/Luqmaan2000/ecommerce-analytics-pipeline/raw/main/dashboard/ecommerce_dashboard.pbix)
-
+### 📥 [Download Dashboard (.pbix)](dashboard/dashboard.pbix)
 
 ---
 
@@ -63,12 +61,11 @@ The Power BI dashboard includes:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/ecommerce-analytics-pipeline.git
+   git clone https://github.com/Luqmaan2000/ecommerce-analytics-pipeline.git
 
-2. Run The ETL script:
+2. Run ETL Script:
+    ```bash
     python etl/etl_pipeline.py
-
 3. Run SQL queries and view insights:
+    ```bash
     python analysis/analysis_queries.py
-
-
