@@ -53,9 +53,9 @@ The Power BI dashboard includes:
 - 🕒 **Order Volume Over Time** (line chart)
 - 📦 **Top Products by Revenue** (table)
 
-### 📥 [Download Dashboard (.pbix)](dashboard/dashboard.pbix)
 
----
+### 📥 [Download Dashboard (.pbix)]https://github.com/Luqmaan2000/ecommerce-analytics-pipeline/blob/main/dashboards/dashboard.pbix
+
 
 ## 🚀 How to Run This Project
 
